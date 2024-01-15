@@ -10,6 +10,7 @@ export default defineConfig({
     server: {
       preset: "static",
       compressPublicAssets: false,
+      strictPort: true,
     },
   },
   // Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`
